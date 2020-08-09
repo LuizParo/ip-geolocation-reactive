@@ -1,0 +1,15 @@
+version: '3'
+services:
+  redis:
+    image: 'redis:6.0.6'
+  geolocation-service:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - 8080:8080
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    depends_on:
+      - redis
