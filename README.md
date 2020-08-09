@@ -1,3 +1,5 @@
+Alternative project for [ip-geolocation](https://github.com/LuizParo/ip-geolocation) that uses Spring WebFlux instead of Spring MVC.
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
